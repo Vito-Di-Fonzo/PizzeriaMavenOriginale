@@ -110,8 +110,7 @@ public class Dao {
 		entityManager.persist(pizza);
 		entityManager.getTransaction().commit();
 		entityManager.close();
-		List<Pizza> listaPizza = new ArrayList<>();
-		String sql = "select * from pizza_utente where utenteid=" + idUtente;
+		new ArrayList<>();
 
 	}
 
